@@ -9,7 +9,7 @@ It's a super simple and small yet working script and that's why I like it and ho
 
 For the script to work, you will need the program Python (at least version 3.7) and the Python packages [fpdf](https://pypi.org/project/fpdf/) and [Pillow](https://pythonexamples.org/python-pip-install-pillow/) which can both be installed with pip. It works with Windows 11, 10, and 7. I'm pretty sure it doesn't work on MacOS or Linux but I can't be sure.
 
-Run the command `py <location of emailverter.py>`, replace the text in the brackets with the actual location of `emailverter.py` on your computer
+Run the command `py <location of emailverter.py>` in command prompt or powershell, replace the text in the brackets with the actual location of `emailverter.py` on your computer
 
 ## How to Get a Raw Email Text Document
 
