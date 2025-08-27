@@ -90,7 +90,7 @@ def select_email_file():
     root = Tk()
     root.withdraw()
     return filedialog.askopenfilename(
-        title="Select Raw Email .txt File",
+        title="Select a valid .txt file",
         filetypes=[("Text Files", ".txt"), ("All Files", ".*")]
     )
 
@@ -167,4 +167,3 @@ if __name__ == "__main__":
         parse_email_txt(selected_file)
     else:
         print("\033[91m❌ Invalid selection\033[0m")
-
